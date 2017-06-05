@@ -1,12 +1,164 @@
 body{
   font-family: 'Open Sans', sans-serif;
-  margin: 0;
+  margin: 0 auto;
+}
+header{
+  margin: 25px;
+}
+p{
+  font-size: 18px;
+}
+.rowOne{
+  text-transform: uppercase;
+  color: #ff512f;
+  font-weight: bold;
+  word-spacing: 20px;
+  padding: 3px 0;
+}
+.rowTwo{
+  text-transform: capitalize;
+  font-weight: normal;
+  padding: 10px 0 0;
+  margin-right: 20px;
+}
+.space{
+  margin-right: 20px;
+}
+.orange{
+  padding: 5px 0;
+}
+.orange:link, .orange:visited{
+  color: #ff512f;
+  text-decoration: none;
+}
+.orange:hover{
+  color: #b6361d;
+  border-bottom: 3px solid rgba(255, 81, 47, .5);
+}
+.darkOrange:link, .darkOrange:visited{
+  color: #b6361d;
+  text-decoration: underline;
+}
+.white:link, .white:visited{
+  color: white;
+  text-decoration: none;
+}
+.white:hover{
+  color: white;
 }
 .productInfo{
   background-color: #ff512f;
   color: white;
+  margin: 10px auto;
+}
+.productTitle{
+  font-size: 50px;
+  margin: 37px 0 0;
+}
+.season{
+  text-transform: uppercase;
+  color: #b6361d;
+  margin: 0 0 70px;
+}
+.back{
+  padding: 45px 0 20px;
+}
+.cap{
+  text-transform: uppercase;
+}
+.recShoes{
+  text-align: center;
+  font-size: 20px;
+  background-color: rgba(255, 81, 47, .15);
+  padding: 2px;
 }
 .productRec{
   background-color: #ff512f;
   color: white;
+}
+.width{
+  width: 900px;
+  margin: 0 auto;
+}
+.footer{
+  margin: 20px;
+}
+.lineSpacing{
+  line-height: 200%;
+}
+.bigMoney{
+  font-size: 30px;
+  font-weight: bold;
+  margin: 35px 0;
+}
+.button{
+  background-color: white;
+  border: none;
+  color: #ff512f;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 8px;
+  padding: 15px 25px;
+  margin: 0 0 50px 25px;
+}
+.tab{
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 1px solid rgba(255, 81, 47, .25);
+  margin-bottom: 30px;
+}
+.tabDetails{
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+.reviews{
+  font-size: 18px;
+  color: #ff512f;
+  opacity: .5;
+  display: inline-block;
+}
+.content{
+  color: grey;
+  padding: 10px 0 0;
+}
+.content2{
+  color: grey;
+  padding: 10px 0 45px;
+}
+.content3{
+  color: grey;
+  padding: 8px 0 90px;
+}
+.shoe{
+  width: 750px;
+  padding-top: 100px;
+}
+.productTitle2{
+  font-size: 30px;
+  margin: 37px 0 0;
+}
+.season2{
+  text-transform: uppercase;
+  color: #b6361d;
+  font-size: 16px;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+.footerP{
+  margin: 0;
+  opacity: .5;
+}
+.bottom{
+  padding-bottom: 70px;
+}
+.black:link, .black:visited{
+  color: black;
+  text-decoration: none;
+}
+.black:hover{
+  color: black;
 }
