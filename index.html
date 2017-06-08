@@ -9,7 +9,7 @@
   <body>
     <!-- Primary Navigation -->
     <header>
-      <img src="logo.jpg" alt="Sneaker Shops Logo" width="60px">
+      <img src="logo.jpg" alt="Sneaker Shops Logo" class="logo">
       <div class="rowOne">
         <a href="#" class="orange">Men</a>
         <a href="#" class="orange">Women</a>
@@ -21,6 +21,7 @@
         <a href="#" class="orange space">Help</a>
         <a href="#" class="orange space">My Account</a>
         <a href="#" class="orange"><img src="cart.jpg" alt="Shopping Cart"> Shopping Cart</a>
+        <p id="cart" class="orange cart">(0)</p>
       </div>
     </header>
 
@@ -28,25 +29,28 @@
     <section class="productInfo">
       <div class="width">
         <div class="back">
-          <a href="#" class="white cap">&#8592; Back To All Shoes</a>
+          <div>
+            <a href="#" class="white cap image1">&#8592; Back To All Shoes</a>
+            <img src="shoe1.png" alt="Black Converse Shoes" class="bigShoe">
+          </div>
         </div>
-        <div>
-          <img src="shoe1.png" alt="Black Converse Shoes" width="760px">
-        </div>
-        <div>
-          <h1 class="productTitle">Quick Sneakers</h1>
-          <p class="season">Spring/Summer 2017</p>
-          <p class="lineSpacing">Consectetur pariatur quis velit cupidatat enim aliqua aute ad voluptate voluptate. Consectetur pariatur quis velit cupidatat enim aliqua aute ad voluptate voluptate. <a href="#" class="darkOrange">Read The Reviews</a></p>
-        </div>
-        <div>
-          <p class="bigMoney"><sup>$</sup>120<sup>00</sup>
-          <a href="#"><button type="button" name="button" class="button">Buy Now!</button></a></p>
+          <div class="side">
+            <div class="side">
+              <h1 class="productTitle">Quick Sneakers</h1>
+              <p class="season">Spring/Summer 2017</p>
+              <p class="lineSpacing">Consectetur pariatur quis velit cupidatat enim aliqua aute ad voluptate voluptate. Consectetur pariatur quis velit cupidatat enim aliqua aute ad voluptate voluptate.</p>
+              <a href="#" class="darkOrange">Read The Reviews</a></p>
+            </div>
+          <div>
+            <p class="bigMoney"><sup>$</sup>120<sup>00</sup>
+              <a href="#"><button type="button" name="button" class="button">Buy Now!</button></a></p>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- Product Details -->
-    <section class="productDetails">
+    <section class="productDetails width">
       <div class="tab width">
         <a href="#" class="orange tabDetails">Product Details</a>
         <a href="#" class="orange tabDetails">Size & Fit</a>
@@ -64,38 +68,44 @@
       </div>
     </section>
 
-    <!-- Recommended Shoes -->
-    <section class="recShoes">
-      <h3>Shop Recommended Shoes</h3>
-    </section>
-
     <!-- Product Recommendations -->
     <section class="productRec">
+      <div class="recShoes">
+        <h3>Shop Recommended Shoes</h3>
+      </div>
       <div class="width bottom">
-        <div>
-          <img src="shoe2.png" alt="Bronco Sneakers" class="shoe">
-          <p class="productTitle2">Bronco Sneakers</p>
-          <p class="season2">Spring/Summer 2017</p>
-          <a href="#" class="white productTitle2"><sup>$</sup>120<sup>00</sup></a>
+        <div class="product">
+            <div class="smallShoe">
+              <img src="shoe2.png" alt="Bronco Sneakers" class="shoe">
+              <p class="productTitle2">Bronco Sneakers</p>
+              <p class="season2">Spring/Summer 2017</p>
+            </div>
+            <div class="smallShoePrice">
+              <p class="white productTitle2"><sup>$</sup>120<sup>00</sup></p>
+            </div>
         </div>
-        <div>
-          <img src="shoe3.png" alt="Nimble Sneakers" class="shoe">
-          <p class="productTitle2">Nimble Sneakers</p>
-          <p class="season2">Spring/Summer 2017</p>
-          <a href="#" class="white productTitle2"><sup>$</sup>120<sup>00</sup></a>
+        <div class="product">
+          <div class="smallShoe">
+            <img src="shoe3.png" alt="Nimble Sneakers" class="shoe">
+            <p class="productTitle2">Nimble Sneakers</p>
+            <p class="season2">Spring/Summer 2017</p>
+            <p class="white productTitle2"><sup>$</sup>120<sup>00</sup></p>
+          </div>
         </div>
-        <div>
-          <img src="shoe4.png" alt="Cute Sneakers" class="shoe">
-          <p class="productTitle2">Cute Sneakers</p>
-          <p class="season2">Spring/Summer 2017</p>
-          <a href="#" class="white productTitle2"><sup>$</sup>120<sup>00</sup></a>
+        <div class="product">
+          <div class="smallShoe">
+            <img src="shoe4.png" alt="Cute Sneakers" class="shoe">
+            <p class="productTitle2">Cute Sneakers</p>
+            <p class="season2">Spring/Summer 2017</p>
+            <p class="white productTitle2"><sup>$</sup>120<sup>00</sup></p>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- Secondary Navigation -->
     <section class="footer">
-      <img src="logo.jpg" alt="Sneaker Shops Logo" width="60px">
+      <img src="logo.jpg" alt="Sneaker Shops Logo" class="logo">
       <div class="rowOne">
         <a href="#" class="orange">Men</a>
         <a href="#" class="orange">Women</a>
@@ -103,12 +113,15 @@
         <a href="#" class="orange">Girls</a>
         <a href="#" class="orange">Customize</a>
       </div>
-      <div>
+      <div class="rowTwo">
         <p class="footerP"><a href="#" class="black">Shipping</a> |
         <a href="#" class="black">Terms & Conditions</a> |
         &copy; Copyright 2017. Sneaker Shop, LLC.</p>
       </div>
     </section>
 
+    <script src="main.js" type="text/javascript">
+
+    </script>
   </body>
 </html>
